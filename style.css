@@ -1,8 +1,34 @@
-.header.main {
-    font-size: 40px;
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+/*These are all common declarations. Tried to group as many together as possible*/
+div,
+p,
+ul,
+ol{
     text-align: center;
 }
 
-span {
+ul,
+ol {
+    list-style-position: inside;
+}
+
+span,
+.header {
     font-weight: bold;
 }
+
+/*These are unique declarations for all header subclasses.*/
+.main {
+    font-size: 48px;
+}
+.section {
+    font-size: 28px;
+}
+
+/*These are unique declarations for all link subclasses*/
+.home{
+    font-size: 18px;
+}
+
