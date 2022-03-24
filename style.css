@@ -1,17 +1,19 @@
-body {
-    font-family: 'Times New Roman', Times, serif;
+/*Sets font and alignment for entire site as well as dark mode*/
+html {
+    background-color: black;
 }
-/*These are all common declarations. Tried to group as many together as possible*/
-div,
-p,
-ul,
-ol{
+body{
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    color: white;
 }
 
+/*These are all common declarations. Tried to group as many together as possible*/
 ul,
 ol {
     list-style-position: inside;
+    display: inline-block;
+    text-align: left;
 }
 
 span,
@@ -32,3 +34,15 @@ span,
     font-size: 18px;
 }
 
+/*These are unique declarations for all image subclasses*/
+.finished {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+/*These are unique declarations for the description section*/
+.description {
+    text-align: left;
+}
